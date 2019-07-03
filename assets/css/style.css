@@ -3,7 +3,58 @@ body {
     color: white;
 }
 
-#sectionOne {
-    background: yellow;
-    
+/*
+.ui-fluid-image-top{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    margin-bottom: 1%;
 }
+
+.ui-fluid-image-bottom{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+} */
+
+
+/* #imageA {
+    max-height: 100%;
+    height: auto;
+}
+
+#imageB {
+    max-height: 100%;
+    height: auto;
+} */
+
+.ui.button {
+    height: fit-content;
+    width: auto;
+}
+#containerA {
+    height: auto;
+}
+
+#buttonA {
+    color: white;
+    background-color: black;
+}
+
+#buttonB {
+    color: white;
+    background-color: black;
+}
+
+#sectionOne {
+    background: black; 
+}
+
