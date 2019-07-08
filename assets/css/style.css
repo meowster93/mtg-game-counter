@@ -26,7 +26,7 @@ body {
 } */
 
 
-/* #imageA {
+#imageA {
     max-height: 100%;
     height: auto;
 }
@@ -36,9 +36,9 @@ body {
     height: auto;
 } */
 
-.ui.button {
+ .ui.button {
     height: fit-content;
-    width: auto;
+    width: auto; 
 }
 #containerA {
     height: auto;
@@ -47,14 +47,14 @@ body {
 #buttonA {
     color: white;
     background-color: black;
-}
+} 
 
 #buttonB {
     color: white;
-    background-color: black;
-}
+     background-color: black;
+} 
 
-#sectionOne {
-    background: black; 
+/* #sectionOne {
+    background: black;  */
 }
 
