@@ -7,7 +7,6 @@ Magic the Gathering life counter app, potential for desktop modifications.
 ## Craig's advice:
 * Install update for sql
 * "Blob Column"
-* Install jdk, open command prompt and type "java -version"
 * Install MySQL defaults server, router, standard , etc
 * Cordova for mobile (framework); React also works 
 * Web view runs page

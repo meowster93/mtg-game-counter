@@ -10,13 +10,33 @@
 </head>
 
 <body scroll="no" style="overflow: hidden">
-        <div class="ui center aligned segment" id="containerA">
-                <!-- <div style="background-color: black">--><div class="ui button" id="buttonA"><p>P1</p> <img class="ui fluid image" id="imageA" src="./assets/images/elspethCrop.PNG"></div>
-                <div class="ui horizontal divider">VS!</div>
-                <div class="ui button" id="buttonB">P2 <img class="ui fluid image" id="imageB" src="./assets/images/elspethCrop.PNG"></div>
-                
-              </div>
-              
+    <div class="ui center aligned segment" id="containerA">
+        <div class="ui buttons">
+            <button class="ui black button" id="playerAdd">-</button>
+            <button class="ui button" id="playerSub">+</button>
+        </div>
+        <div class="ui button" id="buttonA">
+            <p>P1</p>
+            <div id="lifeNumber">20</div><img class="ui fluid image" id="imageA" src="./assets/images/elspethCrop.PNG">
+        </div>
+        <div class="ui horizontal divider">VS!</div>
+        <div class="ui button" id="buttonB">
+            <p>P2</p> 
+            <div id="lifeOpp">20</div><img class="ui fluid image" id="imageB" src="./assets/images/elspethCrop.PNG">
+        </div>
+        <div class="ui buttons">
+            <button class="ui button" id="oppAdd">+</button>
+            <button class="ui black button" id="oppSub">-</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
     <!-- end of ui-container -->
 </body>
 

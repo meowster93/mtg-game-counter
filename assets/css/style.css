@@ -47,12 +47,23 @@ body {
 #buttonA {
     color: white;
     background-color: black;
+    transform: rotate(180deg);
 } 
 
 #buttonB {
     color: white;
      background-color: black;
 } 
+
+#lifeNumber {
+    size: 50px;
+    color: white;
+    font-size: 8.5rem;
+    z-index: 1;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 13%;
+}
 
 /* #sectionOne {
     background: black;  */
