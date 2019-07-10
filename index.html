@@ -9,20 +9,21 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body scroll="no" style="overflow: hidden">
-    <div class="ui center aligned segment" id="containerA">
+<body>
+    <div class="ui center aligned segment" style="background: black;" id="containerA">
         <div class="ui buttons">
-            <button class="ui black button" id="playerAdd">-</button>
-            <button class="ui button" id="playerSub">+</button>
+            <button class="ui black button" id="playerSub">-</button>
+            <button class="ui button" id="playerAdd">+</button>
         </div>
-        <div class="ui button" id="buttonA">
-            <p>P1</p>
-            <div id="lifeNumber">20</div><img class="ui fluid image" id="imageA" src="./assets/images/elspethCrop.PNG">
+        <div class="ui centered card" id="topSection">
+            <div id="lifeNumber">20</div><img class="ui centered large image" id="imageA"
+                src="./assets/images/elspethCrop.PNG">
         </div>
         <div class="ui horizontal divider">VS!</div>
-        <div class="ui button" id="buttonB">
-            <p>P2</p> 
-            <div id="lifeOpp">20</div><img class="ui fluid image" id="imageB" src="./assets/images/elspethCrop.PNG">
+        <div class="ui centered card" id="bottomSection">
+            <div id="lifeOpp">
+                <p id="p1">20</p>
+            </div><img class="ui centered large image" id="imageB" src="./assets/images/elspethCrop.PNG">
         </div>
         <div class="ui buttons">
             <button class="ui button" id="oppAdd">+</button>
