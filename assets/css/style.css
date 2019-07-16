@@ -84,7 +84,7 @@ body {
                0px 9px 12px rgba(0,0,0,0.1);
 }
 
-#lifeOpp {
+/* #lifeOpp {
     size: 50px;
     color: white;
     font-size: 8.5rem;
@@ -92,10 +92,10 @@ body {
     position: absolute;
     margin-top: 26%;
     margin-left: 11%;
-}
+} */
 
-#undo {
-    
+#refresh {
+    color: white;
 }
 
 #taskBar {

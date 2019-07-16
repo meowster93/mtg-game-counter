@@ -36,4 +36,10 @@ $(document).ready(function () {
         oppLife--;
         $("#lifeOpp").text("" + oppLife)
     }); 
+    $("#refresh").on("click", function() {
+      playerLife = 20;
+      $("#lifeNumber").text("" + playerLife)
+      oppLife = 20;
+      $("#lifeOpp").text("" + oppLife)
+    });
 });
