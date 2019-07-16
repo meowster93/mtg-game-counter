@@ -12,4 +12,14 @@ $(document).ready(function () {
         playerLife++;
         $("#lifeNumber").text("" + playerLife)
     }); 
+
+    function myFunction() {
+        var x = document.getElementById("taskBar");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      } 
+
 });

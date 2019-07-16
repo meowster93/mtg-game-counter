@@ -26,7 +26,9 @@ Magic the Gathering life counter app, potential for desktop modifications.
 * Reset icon (return life to original)
 * Dice roller
 * Counter icons
-* set background image/color
+* set background image/color ("image" or "edit" icon)
+* option to tally win/loss record after each game; response to Life hitting 0 to select winner? ("handshake" icon?)
+* "cog" icon for settings
 
 ##### Extra functions:
 * Tokens?
