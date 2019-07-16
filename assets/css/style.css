@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: wheat;
     color: white;
 }
 
@@ -44,16 +44,13 @@ body {
     height: auto;
 }
 
-#buttonA {
-    color: white;
-    background-color: black;
+#topSection {
     transform: rotate(180deg);
 } 
 
-#buttonB {
-    color: white;
-     background-color: black;
-} 
+/* #bottomSection {
+    
+}  */
 
 #lifeNumber {
     size: 50px;
@@ -61,8 +58,30 @@ body {
     font-size: 8.5rem;
     z-index: 1;
     position: absolute;
-    margin-top: 30%;
-    margin-left: 13%;
+    margin-top: 20%;
+    margin-left: 20%;
+    text-shadow: 0px 2px 3px rgba(32, 8, 8, 0.664),
+               0px 4px 7px rgba(32, 8, 8, 0.664),
+               0px 9px 12px rgba(32, 8, 8, 0.664);
+}
+
+#lifeOpp {
+    size: 50px;
+    color: white;
+    font-size: 8.5rem;
+    z-index: 1;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 23%;
+    text-shadow: 0px 2px 3px rgba(32, 8, 8, 0.664),
+               0px 4px 7px rgba(32, 8, 8, 0.664),
+               0px 9px 12px rgba(32, 8, 8, 0.664);
+}
+
+#p1 {
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.4),
+               0px 4px 7px rgba(0,0,0,0.1),
+               0px 9px 12px rgba(0,0,0,0.1);
 }
 
 #lifeOpp {
