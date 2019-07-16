@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>MTG Counter</title>
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -15,11 +19,28 @@
             <button class="ui black button" id="playerSub">-</button>
             <button class="ui button" id="playerAdd">+</button>
         </div>
+        <!-- div end for ui buttons 1 -->
         <div class="ui centered card" id="topSection">
             <div id="lifeNumber">20</div><img class="ui centered large image" id="imageA"
                 src="./assets/images/elspethCrop.PNG">
         </div>
-        <div class="ui horizontal divider"><i class="undo icon" id="refresh"></i></div>
+        <!-- div end for ui centered card -->
+        <!-- <div class="ui horizontal divider"></div> -->
+        <div class="ui grey four item inverted menu" id="taskBar">
+            <a class="item" id="refresh">
+                <i class="undo icon" id="refresh"></i>
+            </a>
+            <a class="item">
+                <i class="fas fa-dice-three"></i>
+            </a>
+            <a class="item">
+                <i class="heart icon"></i>
+            </a>
+            <a class="item">
+                <i class="user circle icon"></i>
+            </a>
+        </div>
+
         <div class="ui centered card" id="bottomSection">
             <div id="lifeOpp">
                 <p id="p1">20</p>
@@ -30,6 +51,7 @@
             <button class="ui black button" id="oppSub">-</button>
         </div>
     </div>
+    <!-- div end for ui center aligned segment  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

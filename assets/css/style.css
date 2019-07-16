@@ -99,9 +99,15 @@ body {
 }
 
 #taskBar {
-    visibility
+    /* visibility: hidden; */
 }
 /* #sectionOne {
-    background: black;  */
+    background: black; 
+} */
+
+#taskBar::before {
+    background: black;
 }
+
+
 
