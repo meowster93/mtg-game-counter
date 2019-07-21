@@ -64,11 +64,17 @@ $(document).ready(function () {
 
   const d1 = () => Math.floor(Math.random() * 6 + 1);
   const d2 = () => Math.floor(Math.random() * 6 + 1);
+  const die1 = () => $("#dice1");
 
   $("#diceRoll").on("click", function () {
     d1();
     d2();
 
   });
+
+      // getting modals to display
+  $('#modalT').modal('show');
+  setTimeout(function() {$('#modalT').modal('hide');}, 
+        1000);
 
 });

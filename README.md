@@ -6,7 +6,7 @@ Magic the Gathering life counter app, potential for desktop modifications.
 
 ## Craig's advice:
 * Install update for sql
-* "Blob Column"
+* "Blob Column" (can take up extra disc space); store images, refer to name in db; create user preference options for login based on previous image
 * Install MySQL defaults server, router, standard , etc
 * Cordova for mobile (framework); React also works 
 * Web view runs page
@@ -15,13 +15,16 @@ Magic the Gathering life counter app, potential for desktop modifications.
 * Android Studio 
 * Other languages that run on JVM
 * Color complementary programming for background (Java?); or using JS to identify dominant color
+* javascript30.com
+
+* review oop (think of examples, like bank account for inheritance); MVC; SQL, basic joins such as left; collection types (map, list, set, stack, queue); for/for each loops; overriding vs overloading;
 
 
 ### core functions:
 * horizontal split to divide sides A & B (eventually C & D as well)
 * Visible number(start at 20 or 40)
 * Increment/decrement Life icon(design, functionality with js)
-
+* set to unscrollable?
 #### user tools:
 * Reset icon (return life to original)
 * Dice roller
